@@ -35,7 +35,7 @@ public class SocialMedia extends AppCompatActivity {
         btnFace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://www.facebook.com/";
+                String url = "https://www.facebook.com/pg/EssencialRestaurante/about/?ref=page_internal/";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
